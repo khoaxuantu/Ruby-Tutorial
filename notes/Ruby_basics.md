@@ -230,7 +230,7 @@ else
     code
 end
 ```
-### Case
+### case
 ```rb
 case expression
 when expr1, expr2
