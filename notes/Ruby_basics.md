@@ -321,6 +321,7 @@ undef methodName
 
 ## Blocks
 A block consists of chunks of code
+> Like `{data => doSth(data)}` in JavaScript
 ```rb
 block_name {
     statement1
