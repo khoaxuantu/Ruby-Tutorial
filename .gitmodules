@@ -1,0 +1,3 @@
+[submodule "rails/sample-app"]
+	path = rails/sample-app
+	url = https://github.com/khoaxuantu/Rails-what.git
