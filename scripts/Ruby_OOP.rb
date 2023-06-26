@@ -27,7 +27,7 @@ box = Box.new(10, 20)
 def getData(box)
     x = box.printWidth
     y = box.printHeight
-    
+
     puts "Width of the box is: #{x}"
     puts "Height of the box is: #{y}"
 end

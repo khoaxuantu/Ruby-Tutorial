@@ -1,11 +1,14 @@
-def call_proc
-    puts "Before proc"
-    my_proc = Proc.new { return 2 }
-    my_proc.call
-    puts "After proc"
+def call_proc(my_lambda)
+    count = 500
+    my_lambda.call
 end
 
-p call_proc
+count = 1
+my_lambda = -> {
+    puts count
+}
+
+p call_proc(my_lambda)
 # Prints "Before proc" but not "After proc"
 
 def return_binding
